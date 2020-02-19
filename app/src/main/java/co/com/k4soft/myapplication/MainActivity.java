@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showToast() {
+
         String nombre = txtNombre.getText().toString();
         Toast.makeText(getApplicationContext(), nombre, Toast.LENGTH_SHORT).show();
         txtNombre.setText("");
